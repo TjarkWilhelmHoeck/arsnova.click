@@ -25,6 +25,7 @@
 @import "themes/theme-Material-blue";
 @import "themes/theme-spiritual-purple";
 @import "themes/theme-GreyBlue-Lime";
+@import "themes/theme-elementary-school";
 
 $themes: (
 	theme-arsnova-dot-click-contrast: map-merge(standard-style-definitions(), theme-arsnova-dot-click-contrast()),
@@ -35,7 +36,8 @@ $themes: (
 	theme-Material-blue: map_merge(standard-style-definitions(),theme-Material-blue()),
 	theme-decent-blue: map-merge(standard-style-definitions(), theme-decent-blue()),
 	theme-spiritual-purple: map-merge(standard-style-definitions(), theme-spiritual-purple()),
-	theme-GreyBlue-Lime: map-merge(standard-style-definitions(), theme-GreyBlue-Lime())
+	theme-GreyBlue-Lime: map-merge(standard-style-definitions(), theme-GreyBlue-Lime()),
+	theme-elementary-school: map-merge(standard-style-definitions(), theme-elementary-school())
 );
 
 @each $theme, $map in $themes {

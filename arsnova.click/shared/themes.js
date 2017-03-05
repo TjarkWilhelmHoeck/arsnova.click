@@ -6,6 +6,11 @@ export const themes = [
 		id: "theme-Material"
 	},
 	{
+		name: "view.theme_switcher.themes.elementary-school.name",
+		description: "view.theme_switcher.themes.elementary-school.description",
+		id: "theme-elementary-school"
+	},
+	{
 		name: "view.theme_switcher.themes.theme-arsnova-dot-click-contrast.name",
 		description: "view.theme_switcher.themes.theme-arsnova-dot-click-contrast.description",
 		id: "theme-arsnova-dot-click-contrast"

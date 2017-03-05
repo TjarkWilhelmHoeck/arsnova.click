@@ -573,6 +573,10 @@
         "GreyBlue-Lime": {
           "name": "GreyBlue Lime",
           "description": "#9"
+        },
+        "elementary-school": {
+          "name": "Grundschule",
+          "description": "École primaire"
         }
       }
     },
