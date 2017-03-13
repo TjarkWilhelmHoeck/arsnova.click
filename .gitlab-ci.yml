@@ -26,12 +26,13 @@ sonar:
   only:
     - master
     - staging
+    - sq-debug
   tags:
     - gradle
   allow_failure: true
   dependencies: []
   script:
-    - gradle sonarqube
+    - gradle sonarqube --stacktrace
 
 build:
   stage: build
